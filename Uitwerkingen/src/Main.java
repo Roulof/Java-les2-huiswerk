@@ -2,12 +2,13 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
 
+        // Nieuw recept maken voor Appeltaart
+        ApplePieRecipe recipe = new ApplePieRecipe();
 
-
-
+        //Printen van Ingredienten en bereidingswijze van het recept door hun respectievelijke methodes.
+        recipe.printIngredients();
+        recipe.printRecipeSteps();
 
         }
     }
